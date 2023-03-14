@@ -1,0 +1,142 @@
+.navbar-item:hover {
+    color: cyan !important;
+}
+
+html, body {
+    background-image: url('/img/program.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.profile-container {
+    background-color: white;
+    width: 90%;
+    margin: 100px 5% 0 5%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px; 
+}
+
+.left-profile {
+    width: 20%;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-profile {
+    width: 40%;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-profile {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-name {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icon-container {
+    margin: 0 10%;
+}
+
+.location {
+    display: flex !important;
+    justify-content: left;
+    align-items: center;
+    margin: 14px 0;
+}
+
+.nama-jalan {
+    margin-left: 5px;
+}
+
+.phone {
+    display: flex !important;
+    justify-content: left;
+    align-items: center;
+    margin: 14px 0;
+}
+
+.nomor-telpon {
+    margin-left: 5px;
+}
+
+.email {
+    display: flex !important;
+    justify-content: left;
+    align-items: center;
+    margin: 14px 0;
+}
+
+.alamat-email {
+    margin-left: 5px;
+}
+
+.aboutMe {
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.exp {
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.edu {
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.mySection {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.boldFont {
+    font-weight: bold;
+}
+
+.soft-skill {
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+}
+
+.namaSkill {
+    margin-right: 5px;
+    width: 30%;
+}
+
+.hard-skill {
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.hobby {
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.left-profile img {
+    border-radius: 100%;
+    width: 90%;
+    margin: 5%;
+}

@@ -1,0 +1,60 @@
+.navbar-item:hover {
+    color: cyan !important;
+}
+
+.card-container{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+html, body {
+    background-image: url('/img/program.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.p-container {
+    margin-top: 35px;
+}
+
+.p-container p {
+    text-align: center;
+    font-size: 50px;
+    color: springgreen;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: -2px -2px 0 black, -2px 2px 0 black, 2px -2px 0 black, 2px 2px 0 black;
+}
+
+.is-5 a {
+    color: white;
+}
+
+.is-5 a:hover {
+    color: red;
+}
+
+.card {
+    background-color: #002d5a;
+    border: double #FF6363;
+    border-width: 4px;
+    width: 17% !important;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.keterangan {
+    color: white;
+}
+
+.fa-venus {
+    color: rgb(255, 64, 96) !important;
+}
+
+.fa-mars {
+    color: cyan !important;
+}
